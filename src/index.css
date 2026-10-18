@@ -5,16 +5,16 @@
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-display: 'Fraunces', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
 
-  /* ---------- Sage / earth tones ---------- */
-  --color-sage-50: #f5f7f1;
-  --color-sage-100: #ebefe3;
-  --color-sage-200: #d9e0cd;
-  --color-sage-300: #c0cba9;
-  --color-sage-400: #a3b18a;
-  --color-sage-500: #869671;
-  --color-sage-600: #6b7c57;
-  --color-sage-700: #556445;
-  --color-sage-800: #3f4b35;
+  /* ---------- Peach / morning glow ---------- */
+  --color-sage-50: #fdf6f0;
+  --color-sage-100: #faeae0;
+  --color-sage-200: #f3d5c2;
+  --color-sage-300: #e9bda5;
+  --color-sage-400: #d9a083;
+  --color-sage-500: #c4835e;
+  --color-sage-600: #a86a47;
+  --color-sage-700: #875434;
+  --color-sage-800: #664026;
 
   /* ---------- Dark espresso ---------- */
   --color-espresso-950: #13100d;
@@ -25,13 +25,13 @@
   --color-espresso-500: #57493d;
 
   /* ---------- Cream / paper ---------- */
-  --color-cream: #faf7f0;
-  --color-cream-dark: #f0eadd;
+  --color-cream: #fbf6ef;
+  --color-cream-dark: #f1e9de;
 
   /* ---------- Accents ---------- */
-  --color-caramel: #c97b4a;
-  --color-caramel-light: #e2a173;
-  --color-gold: #e0a458;
+  --color-caramel: #c96a4c;
+  --color-caramel-light: #e0896c;
+  --color-gold: #e6a75c;
 
   /* ---------- Ink ---------- */
   --color-ink: #1f1a16;
@@ -115,14 +115,14 @@
   }
 
   .text-gradient-dark {
-    background-image: linear-gradient(100deg, #faf7f0 15%, #a3b18a 55%, #e0a458 100%);
+    background-image: linear-gradient(100deg, #fbf6ef 15%, #d9a083 55%, #e6a75c 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .text-gradient-warm {
-    background-image: linear-gradient(100deg, #1f1a16 10%, #6b7c57 95%);
+    background-image: linear-gradient(100deg, #1f1a16 10%, #a86a47 95%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

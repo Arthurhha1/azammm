@@ -5,7 +5,7 @@ export const FACILITIES = [
     image: '/images/outdoor.jpg',
     title: 'Area Outdoor yang Asri',
     description:
-      'Teras atas dan samping dikelilingi tanaman gantung dan udara Pamarayan yang sejuk — pas untuk ngobrol sampai malam.',
+      'Teras atas dan samping dikelilingi tanaman gantung dan udara Kota Serang yang sejuk — pas untuk ngobrol sampai malam.',
     tag: 'Favorite',
     span: 'wide',
   },
@@ -60,5 +60,5 @@ export const MARQUEE_WORDS = [
   'Colokan Tiap Meja',
   'Biji Lokal',
   'Live Acoustic',
-  'Pamarayan',
+  'Kota Serang',
 ]

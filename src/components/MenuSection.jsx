@@ -189,10 +189,10 @@ export default function MenuSection() {
         <div className="mt-8 flex flex-col items-start justify-between gap-4 rounded-3xl border border-cream/10 bg-espresso-800/50 px-6 py-5 sm:flex-row sm:items-center">
           <p className="text-sm text-cream/55">
             Semua menu tersedia panas maupun dingin sesuai varian. Harga sesuai menu asli
-            Nawn Coffee.
+            Hellow Coffee.
           </p>
           <span className="shrink-0 rounded-full border border-cream/15 px-4 py-2 text-[0.7rem] tracking-[0.18em] text-sage-300 uppercase">
-            Menu asli · Nawn
+            Menu asli · Hellow
           </span>
         </div>
       </div>

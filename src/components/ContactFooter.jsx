@@ -139,9 +139,9 @@ function ContactInfo() {
 function MapCard() {
   return (
     <div className="relative overflow-hidden rounded-[2rem] border border-cream/10">
-      <svg viewBox="0 0 800 340" className="h-full w-full" role="img" aria-label="Peta lokasi Nawn Coffee di Bojong Neros, Pamarayan">
-        <rect width="800" height="340" fill="#EBEFE3" />
-        <g fill="#D9E0CD">
+      <svg viewBox="0 0 800 340" className="h-full w-full" role="img" aria-label="Peta lokasi Hellow Coffee di Kota Serang">
+        <rect width="800" height="340" fill="#FAEAE0" />
+        <g fill="#F3D5C2">
           <rect x="40" y="34" width="180" height="110" rx="14" />
           <rect x="250" y="34" width="150" height="70" rx="14" />
           <rect x="470" y="24" width="200" height="96" rx="14" />
@@ -151,18 +151,18 @@ function MapCard() {
         </g>
         <path
           d="M0 176h800"
-          stroke="#FAF7F0"
+          stroke="#FBF6EF"
           strokeWidth="34"
         />
-        <path d="M0 176h800" stroke="#E0A458" strokeWidth="3" strokeDasharray="22 20" opacity="0.75" />
-        <path d="M296 0v340" stroke="#FAF7F0" strokeWidth="26" />
-        <path d="M540 0v340" stroke="#FAF7F0" strokeWidth="20" />
+        <path d="M0 176h800" stroke="#E6A75C" strokeWidth="3" strokeDasharray="22 20" opacity="0.75" />
+        <path d="M296 0v340" stroke="#FBF6EF" strokeWidth="26" />
+        <path d="M540 0v340" stroke="#FBF6EF" strokeWidth="20" />
         <path
           d="M0 300c120-30 210 10 320-16s210-46 320-14c60 18 110 16 160 4v66H0Z"
-          fill="#A3B18A"
+          fill="#D9A083"
           opacity="0.55"
         />
-        <g fill="#869671" opacity="0.85">
+        <g fill="#C4835E" opacity="0.85">
           <circle cx="120" cy="150" r="12" />
           <circle cx="170" cy="146" r="9" />
           <circle cx="640" cy="152" r="11" />
@@ -172,7 +172,7 @@ function MapCard() {
         </g>
 
         <g transform="translate(400 156)">
-          <circle r="46" fill="#C97B4A" opacity="0.18">
+          <circle r="46" fill="#C96A4C" opacity="0.18">
             <animate attributeName="r" values="34;56;34" dur="3.2s" repeatCount="indefinite" />
             <animate attributeName="opacity" values="0.28;0;0.28" dur="3.2s" repeatCount="indefinite" />
           </circle>
@@ -180,7 +180,7 @@ function MapCard() {
             d="M0-36c13.8 0 25 11.2 25 25C25-6 0 22 0 22s-25-28-25-33c0-13.8 11.2-25 25-25Z"
             fill="#1A1512"
           />
-          <circle cy="-11" r="9" fill="#E0A458" />
+          <circle cy="-11" r="9" fill="#E6A75C" />
         </g>
         <text
           x="400"
@@ -190,7 +190,7 @@ function MapCard() {
           fontSize="24"
           fill="#1F1A16"
         >
-          Nawn Coffee
+          Hellow Coffee
         </text>
         <text
           x="400"
@@ -200,7 +200,7 @@ function MapCard() {
           fontSize="14"
           fill="#5C534A"
         >
-          Bojong Neros, Pamarayan
+          Kota Serang
         </text>
       </svg>
 
@@ -278,12 +278,12 @@ export default function ContactFooter() {
             className="group flex items-center gap-3 text-left"
           >
             <img
-              src="/images/logo-nawn.jpg"
-              alt="Logo Nawn Coffee"
+              src="/images/logo-hellow.jpg"
+              alt="Logo Hellow Coffee"
               className="h-10 w-10 rounded-xl object-cover ring-1 ring-cream/15"
             />
             <span className="flex flex-col leading-none">
-              <span className="font-display text-xl font-semibold text-cream">Nawn</span>
+              <span className="font-display text-xl font-semibold text-cream">Hellow</span>
               <span className="mt-1 text-[0.6rem] font-medium tracking-[0.34em] text-cream/45 uppercase">
                 Coffee
               </span>
@@ -320,7 +320,7 @@ export default function ContactFooter() {
             <span className="text-caramel" aria-hidden="true">
               ☕
             </span>
-            di Pamarayan
+            di Kota Serang
           </p>
         </div>
       </div>

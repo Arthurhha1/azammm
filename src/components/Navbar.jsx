@@ -12,8 +12,8 @@ const sectionIds = NAV_LINKS.map((link) => link.id)
 function LogoMark({ className = 'h-10 w-10' }) {
   return (
     <img
-      src="/images/logo-nawn.jpg"
-      alt="Logo Nawn Coffee"
+      src="/images/logo-hellow.jpg"
+      alt="Logo Hellow Coffee"
       className={`${className} rounded-xl object-cover ring-1 ring-ink/10`}
     />
   )
@@ -55,7 +55,7 @@ export default function Navbar() {
             <LogoMark className="h-9 w-9 transition-transform duration-500 group-hover:-rotate-6 md:h-10 md:w-10" />
             <span className="flex flex-col leading-none">
               <span className="font-display text-xl font-semibold tracking-tight text-ink">
-                Nawn
+                Hellow
               </span>
               <span className="text-[0.6rem] font-medium uppercase tracking-[0.34em] text-ink-soft">
                 Coffee

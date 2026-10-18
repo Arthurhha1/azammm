@@ -17,14 +17,7 @@ const FACTS = [
   { value: '100%', label: 'Racikan fresh tiap hari' },
 ]
 
-const PHOTOS = [
-  '/images/cerita/cerita-1.jpg',
-  '/images/cerita/cerita-3.jpg',
-  '/images/cerita/cerita-4.jpg',
-  '/images/cerita/cerita-5.jpg',
-  '/images/cerita/cerita-6.jpg',
-  '/images/cerita/cerita-7.jpg',
-]
+const PHOTOS = Array.from({ length: 19 }, (_, i) => `/images/cerita/cerita-${i + 1}.jpg`)
 
 function StorySlider() {
   const [[index, direction], setIndex] = useState([0, 0])
@@ -58,7 +51,7 @@ function StorySlider() {
           <motion.img
             key={index}
             src={PHOTOS[index]}
-            alt={`Suasana Nawn Coffee ${index + 1}`}
+            alt={`Suasana Hellow Coffee ${index + 1}`}
             custom={direction}
             initial={{ opacity: 0, x: direction >= 0 ? 120 : -120, scale: 1.06 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -164,7 +157,7 @@ export default function Story() {
                 </span>
               </div>
               <p className="mt-2 font-display text-[1.35rem] leading-snug font-light">
-                Bojong Neros, Pamarayan
+                Kota Serang
               </p>
               <p className="mt-1.5 text-xs leading-relaxed text-cream/55">
                 Jauh dari hiruk-pikuk, dekat dari rumah.
@@ -203,7 +196,7 @@ export default function Story() {
               Cerita Kami
             </span>
             <h2 className="font-display text-[2.3rem] leading-[1.06] font-light text-ink sm:text-5xl lg:text-[3.4rem]">
-              Kedai kecil di Bojong Neros yang jadi{' '}
+              Kedai kecil di Kota Serang yang jadi{' '}
               <span className="italic text-caramel">rumah kedua</span> banyak orang
             </h2>
           </Reveal>
@@ -211,8 +204,8 @@ export default function Story() {
           <Reveal delay={0.1}>
             <div className="space-y-4 text-[1.02rem] leading-relaxed text-ink-soft">
               <p>
-                Nawn Coffee lahir dari keinginan sederhana: punya tempat nongkrong yang enak di
-                Pamarayan, tanpa harus jauh-jauh ke kota. Bangunan dua lantai kami kini jadi tempat
+                Hellow Coffee lahir dari keinginan sederhana: punya tempat nongkrong yang enak di
+                Kota Serang, tanpa harus jauh-jauh ke mana-mana. Bangunan dua lantai kami kini jadi tempat
                 favorit anak muda — ada area indoor industrial, teras outdoor hijau, dan sudut atas
                 yang adem.
               </p>
@@ -232,10 +225,10 @@ export default function Story() {
               </blockquote>
               <figcaption className="mt-4 flex items-center gap-3">
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-espresso-900 font-display text-sm text-cream">
-                  NW
+                  HC
                 </span>
                 <span className="text-sm text-ink-soft">
-                  <span className="font-semibold text-ink">Tim Nawn Coffee</span> · Barista &
+                  <span className="font-semibold text-ink">Tim Hellow Coffee</span> · Barista &
                   Pendiri
                 </span>
               </figcaption>

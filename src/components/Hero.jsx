@@ -43,7 +43,7 @@ export default function Hero() {
             <RevealWords text="Nongkrong Nyaman" delay={0.15} className="block" />
             <RevealWords text="& Kopi Terbaik" delay={0.28} className="block" />
             <RevealWords
-              text="di Pamarayan"
+              text="di Kota Serang"
               delay={0.41}
               className="block italic text-caramel"
             />
@@ -51,8 +51,8 @@ export default function Hero() {
 
           <Reveal delay={0.5} y={22}>
             <p className="max-w-lg text-[1.05rem] leading-relaxed text-ink-soft">
-              Dari Bojong Neros, kami menyeduh biji pilihan Nusantara menjadi gelas-gelas hangat
-              untuk anak muda, pekerja, dan warga Pamarayan. Duduklah sebentar — kopi dan obrolan
+              Dari Kota Serang, kami menyeduh biji pilihan Nusantara menjadi gelas-gelas hangat
+              untuk anak muda, pekerja, dan warga Kota Serang. Duduklah sebentar — kopi dan obrolan
               kami siapkan.
             </p>
           </Reveal>
@@ -93,7 +93,7 @@ export default function Hero() {
           <div className="grain grain-light relative overflow-hidden rounded-[2.5rem] border border-ink/10 bg-sage-100 p-3 shadow-lift sm:p-5">
             <img
               src="/images/parkir.jpg"
-              alt="Gedung Nawn Coffee di Pamarayan"
+              alt="Gedung Hellow Coffee di Kota Serang"
               className="h-[420px] w-full rounded-[2rem] object-cover sm:h-[520px]"
               loading="eager"
             />
@@ -131,7 +131,7 @@ export default function Hero() {
               “Kopinya konsisten, tempatnya adem — kami balik tiap minggu.”
             </blockquote>
             <figcaption className="mt-2 text-[0.7rem] font-medium tracking-wide text-ink-soft uppercase">
-              Warga Bojong Neros
+              Warga Kota Serang
             </figcaption>
           </motion.figure>
         </motion.div>
